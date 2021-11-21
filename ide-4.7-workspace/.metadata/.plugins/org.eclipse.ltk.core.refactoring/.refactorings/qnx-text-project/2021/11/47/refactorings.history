@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;qnx-text-project/172.16.92.129-trace-211114-100623.kev&apos; to &apos;1__172.16.92.129-trace-211114-100623.kev&apos;" description="Rename resource &apos;172.16.92.129-trace-211114-100623.kev&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="172.16.92.129-trace-211114-100623.kev" name="1__172.16.92.129-trace-211114-100623.kev" stamp="1636891512527" updateReferences="true"/>
+</session>

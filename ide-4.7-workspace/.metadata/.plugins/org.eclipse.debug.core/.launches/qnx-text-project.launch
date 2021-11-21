@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="com.qnx.tools.ide.qde.ui.QDELaunch">
+<stringAttribute key="com.qnx.tools.ide.SystemProfiler.neutrino.NeutrinoPlugin.config" value="Kernel Log of target"/>
+<intAttribute key="com.qnx.tools.ide.SystemProfiler.neutrino.NeutrinoPlugin.delay" value="0"/>
+<booleanAttribute key="com.qnx.tools.ide.SystemProfiler.neutrino.NeutrinoPlugin.enable" value="false"/>
+<booleanAttribute key="com.qnx.tools.ide.coverage.ui.launch.CLEAN_OLD_DATA" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.coverage.ui.launch.COMMENT" value=""/>
+<stringAttribute key="com.qnx.tools.ide.coverage.ui.launch.GCC_DATA_FORMAT" value="4.3"/>
+<listAttribute key="com.qnx.tools.ide.coverage.ui.launch.PROJECTS"/>
+<intAttribute key="com.qnx.tools.ide.coverage.ui.launch.SCAN_RATE" value="5"/>
+<intAttribute key="com.qnx.tools.ide.coverage.ui.launch.SELECTED_SIGNAL" value="-1"/>
+<booleanAttribute key="com.qnx.tools.ide.coverage.ui.launch.SUSPEND_THREADS" value="true"/>
+<listAttribute key="com.qnx.tools.ide.coverage.ui.launch.TARGET_DIRECTORIES">
+<listEntry value="/tmp"/>
+<listEntry value="/tmp"/>
+</listAttribute>
+<intAttribute key="com.qnx.tools.ide.mat.core.allocBacktraceDepth" value="5"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.autoLeakCheckInterval" value="0"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.boundsChecking" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.controlThread" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.mat.core.dataCollection" value=""/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.debugOutput" value="false"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.dumpLeaksAtExit" value="true"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.errorAction" value="0"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.errorBacktraceDepth" value="5"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.errorDetection" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.mat.core.errorFile" value="/dev/null"/>
+<stringAttribute key="com.qnx.tools.ide.mat.core.eventFile" value="/tmp/traces.rmat"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.heapChecking" value="false"/>
+<stringAttribute key="com.qnx.tools.ide.mat.core.mallocLibrary" value="librcheck.so"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.pollingInterval" value="2000"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.snapshot" value="true"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.snapshotPollingInterval" value="50000"/>
+<stringAttribute key="com.qnx.tools.ide.mat.core.traceFile" value="/tmp/traces.rmat"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.tracing" value="true"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.tracing_max_size" value="0"/>
+<intAttribute key="com.qnx.tools.ide.mat.core.tracing_min_size" value="0"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.useDLAddr" value="false"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.verifyAllocFuncs" value="false"/>
+<booleanAttribute key="com.qnx.tools.ide.mat.core.verifyStrMemFuncs" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.autoStart" value="true"/>
+<intAttribute key="com.qnx.tools.ide.profiler2.core.contSig" value="16"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.instrumentationOn" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.kernelTracingMode" value="false"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.samplingOn" value="false"/>
+<intAttribute key="com.qnx.tools.ide.profiler2.core.startAfterMs" value="0"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.stopHooks" value="false"/>
+<intAttribute key="com.qnx.tools.ide.profiler2.core.stopSig" value="15"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.streaming" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.profiler2.core.targetFile" value="/tmp/prof${random}.ptrace"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.targetFileDelete" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.profiler2.core.targetFilePipe" value="false"/>
+<listAttribute key="com.qnx.tools.ide.qde.core.ACTIVE_TOOLS">
+<listEntry value="com.qnx.tools.ide.profiler2.ui.launchtab"/>
+<listEntry value="com.qnx.tools.ide.SystemProfiler.neutrino.ui.launch.launchsysprof"/>
+<listEntry value="com.qnx.tools.ide.mat.ui.launch.MATLaunchTab"/>
+<listEntry value="com.qnx.tools.ide.coverage.ui.CoverageToolTab"/>
+</listAttribute>
+<listAttribute key="com.qnx.tools.ide.qde.core.ACTIVE_TOOL_DELEGATES">
+<listEntry value="com.qnx.tools.ide.profiler2.ui.launchDelegate"/>
+<listEntry value="com.qnx.tools.ide.SystemProfiler.neutrino.ui.launch.loggingDelegate"/>
+<listEntry value="com.qnx.tools.ide.mat.ui.QDEMATLaunchDelegate"/>
+<listEntry value="com.qnx.tools.ide.coverage.ui.CoverageLaunchDelegate"/>
+</listAttribute>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.AUTO_SOLIB" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.CLEAN_TARGET" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.DIR_UPLOAD" value="/tmp"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.DO_NOT_UPLOAD_LIBS" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.DO_UPLOAD" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.LD_BIND_NOW" value="true"/>
+<intAttribute key="com.qnx.tools.ide.qde.core.NUM_UPLOAD_LIBS" value="0"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.STRIP_BEFORE_UPLOAD" value="true"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_ATTR" value="172.16.92.129"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_DEBUG_PERSPECTIVE" value="org.eclipse.debug.ui.DebugPerspective"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_DONTUSE_PTY" value="pickaptyforme"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.TARGET_FILTER_ATTR" value="true"/>
+<intAttribute key="com.qnx.tools.ide.qde.core.TARGET_PRIO" value="10"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_RUN_PERSPECTIVE" value="com.qnx.tools.ide.profiler2.ui.ProfilerPerspective"/>
+<stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_SCHED" value="r"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.USE_UNIQ_NAME" value="true"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB" value="true"/>
+<listAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB_LIST"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="gdb"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value=".gdbinit"/>
+<listAttribute key="org.eclipse.cdt.debug.mi.core.SOLIB_PATH"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.STOP_ON_SOLIB_EVENTS" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.breakpointsFullPath" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.commandFactory" value="com.qnx.tools.ide.qde.debug.internal.core.QNXCommandFactory"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.protocol" value="mi"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.qnx.tools.ide.qde.debug.core.CDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_REGISTER_BOOKKEEPING" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.launch.ENABLE_VARIABLE_BOOKKEEPING" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.FORMAT" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;contentList&gt;&lt;content id=&quot;crc-performMemoryCheck-(format)&quot; val=&quot;4&quot;/&gt;&lt;/contentList&gt;"/>
+<stringAttribute key="org.eclipse.cdt.launch.GLOBAL_VARIABLES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;globalVariableList/&gt;&#13;&#10;"/>
+<stringAttribute key="org.eclipse.cdt.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList&gt;&#13;&#10;&lt;memoryBlockExpressionItem&gt;&#13;&#10;&lt;expression text=&quot;133713844&quot;/&gt;&#13;&#10;&lt;/memoryBlockExpressionItem&gt;&#13;&#10;&lt;/memoryBlockExpressionList&gt;&#13;&#10;"/>
+<stringAttribute key="org.eclipse.cdt.launch.PLATFFORM" value="qnx"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="x86/o-g/qnx-text-project_g"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="qnx-text-project"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="org.eclipse.cdt.core.default.config.916380481"/>
+<booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/qnx-text-project"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+</launchConfiguration>

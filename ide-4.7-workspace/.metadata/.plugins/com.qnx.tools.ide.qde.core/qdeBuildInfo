@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QdeProjectsBuildInfo>
+<qdeBuildInfo IMemento.internal.id="Y:/code/ide-4.7-workspace/qnx-text-project" buildConfig="_x86_r" projectName="qnx-text-project">
+<srcDirs>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/x86/o</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/x86</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project</element>
+</srcDirs>
+<libDirs>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/x86/o</element>
+<element>C:/QNX650/target/qnx6/x86/lib</element>
+<element>C:/QNX650/target/qnx6/x86/usr/lib</element>
+</libDirs>
+<incDirs>
+<element>C:/QNX650/target/qnx6/usr/include</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/x86/o</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/x86</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project</element>
+</incDirs>
+<libs/>
+<SRCS>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/aes.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/airbag.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/crc16.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/memory_check.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/my_time.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/qnx-text-project.c</element>
+<element>Y:/code/ide-4.7-workspace/qnx-text-project/serial_line.c</element>
+</SRCS>
+</qdeBuildInfo>
+</QdeProjectsBuildInfo>

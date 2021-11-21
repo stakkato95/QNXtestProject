@@ -1,0 +1,74 @@
+/*
+ * serial_line.c
+ *
+ *  Created on: Nov 8, 2021
+ *      Author: user
+ */
+
+#include <stdio.h>
+
+#include "my_time.h"
+#include "aes.h"
+
+#define RECEIVE_DUMMY_LOOP 1000000
+#define SEND_DUMMY_LOOP 100000
+
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
+static aes_context ctx;
+static unsigned char key[16] = {
+	0x0f,0x15,0x71,0xc9,
+	0x47,0xd9,0xe8,0x59,
+	0x0c,0xb7,0xad,0xd6,
+	0xaf,0x7f,0x67,0x98
+};
+
+static previousCommandValue = COMMAND_B;
+
+void initSerialLine() {
+	aes_set_key(key, sizeof(key) * 8, &ctx);
+}
+
+void prepareToSendOnSerialLine(unsigned char* in, unsigned char* out) {
+	aes_encrypt(in, out, &ctx);
+}
+
+void sendOnSerialLine(unsigned char* data, int size) {
+	pthread_mutex_lock(&mutex);
+
+	int i;
+	printf("serial line: ");
+	for (i = 0; i < size; i++) {
+		printf("%u", data[i]);
+	}
+	printf("\n");
+	flushall();
+
+	int counter = 0;
+	int i;
+	for (i = 0; i < SEND_DUMMY_LOOP; i++) {
+		counter++;
+	}
+
+	pthread_mutex_unlock(&mutex);
+}
+
+int receiveCommand() {
+	pthread_mutex_lock(&mutex);
+
+	int dummyCounter = 0;
+	int i;
+	for (i = 0; i < RECEIVE_DUMMY_LOOP; i++) {
+		dummyCounter++;
+	}
+
+	if (previousCommandValue == COMMAND_B) {
+		previousCommandValue = COMMAND_A;
+	} else {
+		previousCommandValue = COMMAND_B;
+	}
+
+	pthread_mutex_unlock(&mutex);
+
+	return previousCommandValue;
+}

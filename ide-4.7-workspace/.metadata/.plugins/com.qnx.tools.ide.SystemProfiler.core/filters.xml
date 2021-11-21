@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filterSettings>
+<filter name="Default Filter">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+<filter name="172.16.92.129-trace-211114-130533.kev">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+<filter name="target-trace-211108-115603.kev">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+<filter name="target-trace-211108-120254.kev">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+<filter name="target-trace-211108-114919.kev">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+<filter name="172.16.92.129-trace-211114-100623.kev">
+<filterData type="Elements"/>
+<filterData type="Events"/>
+<filterData type="Partitions"/>
+</filter>
+</filterSettings>
