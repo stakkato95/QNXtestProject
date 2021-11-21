@@ -3,9 +3,16 @@
 	<section name="org.eclipse.debug.ui.CHANGE_VARIABLE_VALUE_DIALOG_SECTION">
 		<item key="DIALOG_X_ORIGIN" value="930"/>
 		<item key="DIALOG_HEIGHT" value="411"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		<item key="DIALOG_Y_ORIGIN" value="599"/>
 		<item key="DIALOG_WIDTH" value="1047"/>
+	</section>
+	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATION_PROPERTIES_DIALOG_SECTION">
+		<item key="DIALOG_X_ORIGIN" value="238"/>
+		<item key="DIALOG_HEIGHT" value="1080"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_Y_ORIGIN" value="25"/>
+		<item key="DIALOG_WIDTH" value="1103"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SINGLE_LAUNCH_CONFIGURATION_DIALOG_SECTION">
 		<item key="DIALOG_X_ORIGIN" value="1053"/>
@@ -14,14 +21,21 @@
 		<item key="DIALOG_Y_ORIGIN" value="447"/>
 		<item key="DIALOG_WIDTH" value="1103"/>
 	</section>
+	<section name="org.eclipse.debug.ui.SELECT_CONFIGURATION_TYPE_DIALOG">
+		<item key="DIALOG_X_ORIGIN" value="977"/>
+		<item key="DIALOG_HEIGHT" value="550"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_Y_ORIGIN" value="327"/>
+		<item key="DIALOG_WIDTH" value="624"/>
+	</section>
 	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1" value="338"/>
 		<item key="DIALOG_X_ORIGIN" value="353"/>
-		<item key="DIALOG_HEIGHT" value="1250"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
-		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value=", com.qnx.tools.ide.qde.ui.QDELaunch, com.qnx.tools.ide.SystemProfiler.neutrino.launch.kerneltrace, "/>
+		<item key="DIALOG_HEIGHT" value="1080"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="org.eclipse.debug.ui.EXPANDED_NODES" value=", com.qnx.tools.ide.qde.ui.QDELaunch, com.qnx.tools.ide.SystemProfiler.neutrino.launch.kerneltrace, org.eclipse.cdt.launch.launchGroup, "/>
 		<item key="DIALOG_Y_ORIGIN" value="211"/>
-		<item key="DIALOG_WIDTH" value="1853"/>
+		<item key="DIALOG_WIDTH" value="1757"/>
 		<item key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2" value="661"/>
 	</section>
 </section>

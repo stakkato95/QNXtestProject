@@ -254,13 +254,295 @@
 <session id="150" name="qnx-text-project-serial" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491601881">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/150"/>
 </session>
-<session id="151" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491807203">
+<session id="151" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491807203">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/151"/>
 </session>
-<session id="152" name="qnx-text-project-memory" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491812024">
+<session id="152" name="qnx-text-project-memory" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491812024">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/152"/>
 </session>
-<session id="153" name="qnx-text-project-serial" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491817403">
+<session id="153" name="qnx-text-project-serial" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637491817403">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/153"/>
+</session>
+<session id="154" name="qnx-text-project-serial" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637493685028">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/154"/>
+</session>
+<session id="155" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637493843217">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/155"/>
+</session>
+<session id="156" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637494304161">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/156"/>
+</session>
+<session id="157" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637494360969">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/157"/>
+</session>
+<session id="158" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637494529691">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/158"/>
+</session>
+<session id="159" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637494965338">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/159"/>
+</session>
+<session id="160" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495053339">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/160"/>
+</session>
+<session id="161" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495082151">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/161"/>
+</session>
+<session id="162" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495107760">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/162"/>
+</session>
+<session id="163" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495167443">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/163"/>
+</session>
+<session id="164" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495245099">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/164"/>
+</session>
+<session id="165" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495305052">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/165"/>
+</session>
+<session id="166" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495429161">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/166"/>
+</session>
+<session id="167" name="qnx-text-project-memory" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495434609">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/167"/>
+</session>
+<session id="168" name="qnx-text-project-serial" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495440536">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/168"/>
+</session>
+<session id="169" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495521134">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/169"/>
+</session>
+<session id="170" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495640402">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/170"/>
+</session>
+<session id="171" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495683386">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/171"/>
+</session>
+<session id="172" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637495946230">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/172"/>
+</session>
+<session id="173" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637496199693">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/173"/>
+</session>
+<session id="174" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498052758">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/174"/>
+</session>
+<session id="175" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498138961">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/175"/>
+</session>
+<session id="176" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498256774">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/176"/>
+</session>
+<session id="177" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498389544">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/177"/>
+</session>
+<session id="178" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498456136">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/178"/>
+</session>
+<session id="179" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498476907">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/179"/>
+</session>
+<session id="180" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498520544">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/180"/>
+</session>
+<session id="181" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498659049">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/181"/>
+</session>
+<session id="182" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498717880">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/182"/>
+</session>
+<session id="183" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498788195">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/183"/>
+</session>
+<session id="184" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637498835932">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/184"/>
+</session>
+<session id="185" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637499487916">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/185"/>
+</session>
+<session id="186" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637499574753">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/186"/>
+</session>
+<session id="187" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637499639164">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/187"/>
+</session>
+<session id="188" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637499725460">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/188"/>
+</session>
+<session id="189" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500072405">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/189"/>
+</session>
+<session id="190" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500126020">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/190"/>
+</session>
+<session id="191" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500726748">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/191"/>
+</session>
+<session id="192" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500811737">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/192"/>
+</session>
+<session id="193" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500839910">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/193"/>
+</session>
+<session id="194" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637500988228">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/194"/>
+</session>
+<session id="195" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501050588">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/195"/>
+</session>
+<session id="196" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501137436">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/196"/>
+</session>
+<session id="197" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501188775">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/197"/>
+</session>
+<session id="198" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501224696">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/198"/>
+</session>
+<session id="199" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501433593">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/199"/>
+</session>
+<session id="200" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501491593">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/200"/>
+</session>
+<session id="201" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501545055">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/201"/>
+</session>
+<session id="202" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501569654">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/202"/>
+</session>
+<session id="203" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501636224">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/203"/>
+</session>
+<session id="204" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501659528">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/204"/>
+</session>
+<session id="205" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501715754">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/205"/>
+</session>
+<session id="206" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501789937">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/206"/>
+</session>
+<session id="207" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637501912861">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/207"/>
+</session>
+<session id="208" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502059065">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/208"/>
+</session>
+<session id="209" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502097613">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/209"/>
+</session>
+<session id="210" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502320086">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/210"/>
+</session>
+<session id="211" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502394271">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/211"/>
+</session>
+<session id="212" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502488800">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/212"/>
+</session>
+<session id="213" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502660703">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/213"/>
+</session>
+<session id="214" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502908968">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/214"/>
+</session>
+<session id="215" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637502996548">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/215"/>
+</session>
+<session id="216" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503217310">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/216"/>
+</session>
+<session id="217" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503445349">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/217"/>
+</session>
+<session id="218" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503491963">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/218"/>
+</session>
+<session id="219" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503567142">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/219"/>
+</session>
+<session id="220" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503739094">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/220"/>
+</session>
+<session id="221" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637503902668">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/221"/>
+</session>
+<session id="222" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637504185225">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/222"/>
+</session>
+<session id="223" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637504385499">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/223"/>
+</session>
+<session id="224" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637504549621">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/224"/>
+</session>
+<session id="225" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637504795441">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/225"/>
+</session>
+<session id="226" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637505513562">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/226"/>
+</session>
+<session id="227" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637505819451">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/227"/>
+</session>
+<session id="228" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637506542220">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/228"/>
+</session>
+<session id="229" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637506625399">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/229"/>
+</session>
+<session id="230" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637506907253">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/230"/>
+</session>
+<session id="231" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637506952106">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/231"/>
+</session>
+<session id="232" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637507225054">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/232"/>
+</session>
+<session id="233" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637507364204">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/233"/>
+</session>
+<session id="234" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637507394095">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/234"/>
+</session>
+<session id="235" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637507425007">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/235"/>
+</session>
+<session id="236" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637507964449">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/236"/>
+</session>
+<session id="237" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637508143107">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/237"/>
+</session>
+<session id="238" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637508440082">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/238"/>
+</session>
+<session id="239" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637509009647">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/239"/>
+</session>
+<session id="240" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637509373343">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/240"/>
+</session>
+<session id="241" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637509586173">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/241"/>
+</session>
+<session id="242" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637509720657">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/242"/>
+</session>
+<session id="243" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637510074299">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/243"/>
+</session>
+<session id="244" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637510351631">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/244"/>
+</session>
+<session id="245" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637510585622">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/245"/>
+</session>
+<session id="246" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637510713003">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/246"/>
+</session>
+<session id="247" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637510942188">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/247"/>
 </session>
 </sessions>

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ha/ham.h>
 
 #include "my_time.h"
 
@@ -97,6 +98,7 @@ void airbagLoop() {
             //printf("crash index=%d", frontal_barrier_crash_index);
         }
 
+        //ham_heartbeat();
         //For debug purposes airbag prints info, that inner loop
         //was called.
         //printf("airbag inner loop\n");

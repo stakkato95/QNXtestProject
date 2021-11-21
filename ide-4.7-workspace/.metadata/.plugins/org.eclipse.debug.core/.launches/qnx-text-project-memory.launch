@@ -63,7 +63,7 @@
 <listEntry value="com.qnx.tools.ide.coverage.ui.CoverageLaunchDelegate"/>
 </listAttribute>
 <booleanAttribute key="com.qnx.tools.ide.qde.core.AUTO_SOLIB" value="true"/>
-<booleanAttribute key="com.qnx.tools.ide.qde.core.CLEAN_TARGET" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.CLEAN_TARGET" value="false"/>
 <stringAttribute key="com.qnx.tools.ide.qde.core.DIR_UPLOAD" value="/tmp"/>
 <booleanAttribute key="com.qnx.tools.ide.qde.core.DO_NOT_UPLOAD_LIBS" value="true"/>
 <booleanAttribute key="com.qnx.tools.ide.qde.core.DO_UPLOAD" value="true"/>

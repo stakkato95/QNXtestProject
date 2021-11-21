@@ -3213,4 +3213,1978 @@
 <dataCollectionOptions/>
 <sourceFolderList/>
 </session>
+<session id="mat1637493685697" name="qnx-text-project-serial" startTime="1637493685697">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30917"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637493844060" name="qnx-text-project-airbag" startTime="1637493844060">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30923"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637494304895" name="qnx-text-project-airbag" startTime="1637494304895">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30925"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637494361732" name="qnx-text-project-airbag" startTime="1637494361732">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30929"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637494530503" name="qnx-text-project-airbag" startTime="1637494530503">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30935"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637494966275" name="qnx-text-project-airbag" startTime="1637494966275">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30938"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495054151" name="qnx-text-project-airbag" startTime="1637495054151">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30940"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495083088" name="qnx-text-project-airbag" startTime="1637495083088">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30942"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495108760" name="qnx-text-project-airbag" startTime="1637495108760">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30944"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495168381" name="qnx-text-project-airbag" startTime="1637495168381">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30946"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495246036" name="qnx-text-project-airbag" startTime="1637495246036">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30948"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495306021" name="qnx-text-project-airbag" startTime="1637495306021">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30950"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495430052" name="qnx-text-project-airbag" startTime="1637495430052">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30953"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495435670" name="qnx-text-project-memory" startTime="1637495435670">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30955"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495441520" name="qnx-text-project-serial" startTime="1637495441520">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30957"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495522055" name="qnx-text-project-airbag" startTime="1637495522055">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30959"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495641323" name="qnx-text-project-airbag" startTime="1637495641323">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30961"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495684385" name="qnx-text-project-airbag" startTime="1637495684385">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30963"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637495947182" name="qnx-text-project-airbag" startTime="1637495947182">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT30969"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637496201115" name="qnx-text-project-airbag" startTime="1637496201115">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61378"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498053711" name="qnx-text-project-airbag" startTime="1637498053711">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61382"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498139960" name="qnx-text-project-airbag" startTime="1637498139960">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61384"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498257710" name="qnx-text-project-airbag" startTime="1637498257710">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61386"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498390433" name="qnx-text-project-airbag" startTime="1637498390433">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61390"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498457025" name="qnx-text-project-airbag" startTime="1637498457025">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61394"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498477983" name="qnx-text-project-airbag" startTime="1637498477983">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61396"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498521512" name="qnx-text-project-airbag" startTime="1637498521512">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61400"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498659971" name="qnx-text-project-airbag" startTime="1637498659971">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61404"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498718722" name="qnx-text-project-airbag" startTime="1637498718722">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61410"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498789068" name="qnx-text-project-airbag" startTime="1637498789068">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61416"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637498836868" name="qnx-text-project-airbag" startTime="1637498836868">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61418"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637499488961" name="qnx-text-project-airbag" startTime="1637499488961">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61426"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637499575705" name="qnx-text-project-airbag" startTime="1637499575705">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61432"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637499639992" name="qnx-text-project-airbag" startTime="1637499639992">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61438"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637499726397" name="qnx-text-project-airbag" startTime="1637499726397">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61442"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500073311" name="qnx-text-project-airbag" startTime="1637500073311">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61448"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500126845" name="qnx-text-project-airbag" startTime="1637500126845">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61454"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500727745" name="qnx-text-project-airbag" startTime="1637500727745">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61470"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500812689" name="qnx-text-project-airbag" startTime="1637500812689">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61476"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500841018" name="qnx-text-project-airbag" startTime="1637500841018">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61478"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637500989228" name="qnx-text-project-airbag" startTime="1637500989228">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61486"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501051634" name="qnx-text-project-airbag" startTime="1637501051634">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61492"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501138515" name="qnx-text-project-airbag" startTime="1637501138515">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61494"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501189947" name="qnx-text-project-airbag" startTime="1637501189947">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61496"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501225821" name="qnx-text-project-airbag" startTime="1637501225821">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61502"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501434622" name="qnx-text-project-airbag" startTime="1637501434622">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61506"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501492699" name="qnx-text-project-airbag" startTime="1637501492699">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61508"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501546149" name="qnx-text-project-airbag" startTime="1637501546149">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61512"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501570641" name="qnx-text-project-airbag" startTime="1637501570641">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61514"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501637284" name="qnx-text-project-airbag" startTime="1637501637284">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61518"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501660619" name="qnx-text-project-airbag" startTime="1637501660619">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61520"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501716893" name="qnx-text-project-airbag" startTime="1637501716893">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61524"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501790889" name="qnx-text-project-airbag" startTime="1637501790889">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61528"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637501913904" name="qnx-text-project-airbag" startTime="1637501913904">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61532"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502060157" name="qnx-text-project-airbag" startTime="1637502060157">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61538"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502098673" name="qnx-text-project-airbag" startTime="1637502098673">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61544"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502321021" name="qnx-text-project-airbag" startTime="1637502321021">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61556"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502395379" name="qnx-text-project-airbag" startTime="1637502395379">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61558"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502489831" name="qnx-text-project-airbag" startTime="1637502489831">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61564"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502661780" name="qnx-text-project-airbag" startTime="1637502661780">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61572"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502910203" name="qnx-text-project-airbag" startTime="1637502910203">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61578"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637502997861" name="qnx-text-project-airbag" startTime="1637502997861">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61582"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503218261" name="qnx-text-project-airbag" startTime="1637503218261">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61590"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503446427" name="qnx-text-project-airbag" startTime="1637503446427">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT61596"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503493165" name="qnx-text-project-airbag" startTime="1637503493165">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44157"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503568282" name="qnx-text-project-airbag" startTime="1637503568282">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44161"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503740202" name="qnx-text-project-airbag" startTime="1637503740202">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44167"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637503903761" name="qnx-text-project-airbag" startTime="1637503903761">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44173"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637504186351" name="qnx-text-project-airbag" startTime="1637504186351">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44177"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637504386684" name="qnx-text-project-airbag" startTime="1637504386684">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44183"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637504550746" name="qnx-text-project-airbag" startTime="1637504550746">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44189"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637504796598" name="qnx-text-project-airbag" startTime="1637504796598">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44197"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637505514889" name="qnx-text-project-airbag" startTime="1637505514889">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44203"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637505820763" name="qnx-text-project-airbag" startTime="1637505820763">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44209"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637506543530" name="qnx-text-project-airbag" startTime="1637506543530">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44217"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637506626851" name="qnx-text-project-airbag" startTime="1637506626851">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44219"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637506908253" name="qnx-text-project-airbag" startTime="1637506908253">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44223"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637506953260" name="qnx-text-project-airbag" startTime="1637506953260">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44225"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637507226224" name="qnx-text-project-airbag" startTime="1637507226224">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44233"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637507365375" name="qnx-text-project-airbag" startTime="1637507365375">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44239"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637507395329" name="qnx-text-project-airbag" startTime="1637507395329">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44243"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637507426319" name="qnx-text-project-airbag" startTime="1637507426319">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44247"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637507965573" name="qnx-text-project-airbag" startTime="1637507965573">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44259"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637508144278" name="qnx-text-project-airbag" startTime="1637508144278">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44271"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637508441238" name="qnx-text-project-airbag" startTime="1637508441238">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44281"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637509010883" name="qnx-text-project-airbag" startTime="1637509010883">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44283"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637509374874" name="qnx-text-project-airbag" startTime="1637509374874">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44291"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637509587468" name="qnx-text-project-airbag" startTime="1637509587468">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44295"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637509722062" name="qnx-text-project-airbag" startTime="1637509722062">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44305"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637510075594" name="qnx-text-project-airbag" startTime="1637510075594">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44317"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637510352864" name="qnx-text-project-airbag" startTime="1637510352864">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44331"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637510586902" name="qnx-text-project-airbag" startTime="1637510586902">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44341"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637510714300" name="qnx-text-project-airbag" startTime="1637510714300">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44347"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
+<session id="mat1637510943592" name="qnx-text-project-airbag" startTime="1637510943592">
+<dataCollection>
+<property name="id" value="com.qnx.tools.ide.mat.core.NTODerbyDataCollection"/>
+</dataCollection>
+<dataCollector>
+<property name="derby.storage.pageCacheSize" value="10000"/>
+<property name="derby.storage.pageSize" value="4096"/>
+<property name="subProtocol" value="derby"/>
+<property name="driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+<property name="databaseName" value="Z:\code\QNXtestProject\ide-4.7-workspace\.metadata\.plugins\com.qnx.tools.ide.mat.core\MAT44355"/>
+<property name="protocol" value="jdbc"/>
+</dataCollector>
+<dataCollectionCapabilities>
+<property name="canDumpLeaks" value="true"/>
+<property name="canDumpSnapshots" value="true"/>
+<property name="canDumpTrace" value="true"/>
+</dataCollectionCapabilities>
+<dataCollectionControls/>
+<dataCollectionOptions/>
+<sourceFolderList/>
+</session>
 </sessionList>

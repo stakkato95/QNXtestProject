@@ -1,0 +1,51 @@
+<db id="1" version="2">
+  <propertyTab id="2">
+    <map id="3">
+      <entry>
+        <string>cyc</string>
+        <property id="4">
+          <id>-1</id>
+          <name>cyc</name>
+          <value>1</value>
+        </property>
+      </entry>
+      <entry>
+        <string>sessionName</string>
+        <property id="5">
+          <id>-1</id>
+          <name>sessionName</name>
+          <value>qnx-text-project-serial</value>
+        </property>
+      </entry>
+      <entry>
+        <string>samping_rate</string>
+        <property id="6">
+          <id>-1</id>
+          <name>samping_rate</name>
+          <value>1</value>
+        </property>
+      </entry>
+    </map>
+  </propertyTab>
+  <binTab id="7">
+    <table id="8"/>
+  </binTab>
+  <fileTab id="9">
+    <table id="10"/>
+  </fileTab>
+  <locTab id="11">
+    <locIndex id="12"/>
+  </locTab>
+  <funcTab id="13">
+    <table id="14"/>
+  </funcTab>
+  <recordTab id="15">
+    <table id="16"/>
+  </recordTab>
+  <sampleTab id="17">
+    <table id="18"/>
+  </sampleTab>
+  <callpairTab id="19">
+    <table id="20"/>
+  </callpairTab>
+</db>
