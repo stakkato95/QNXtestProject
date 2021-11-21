@@ -8583,3 +8583,170 @@ com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on devi
 
 !ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:36:10.048
 !MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:41:48.583
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 11:41:53.310
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx30860.tmp' to '/tmp/qnx-text-project_guser163749131293622' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 11:44:25.512
+!MESSAGE Launch cleaning error
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 11:44:25.512
+!MESSAGE Attempt to delete remote file '/tmp/qnx-text-project_guser163749130794321' failed:
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Remove No such file or directory
+	at com.qnx.tools.utils.target.TargetServiceFile.rm(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.rm(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:44:47.983
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:45:19.972
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:45:24.985
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:45:30.238
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:46:40.863
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:23.593
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:23.593
+!MESSAGE Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:31.563
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:31.563
+!MESSAGE Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:52.358
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:47:52.358
+!MESSAGE Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:49:17.217
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 com.qnx.tools.ide.qde.debug.core 4 104 2021-11-21 11:49:17.217
+!MESSAGE Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+!STACK 0
+java.io.FileNotFoundException: Z:\code\QNXtestProject\ide-4.7-workspace\qnx-text-project\x86\o-g\qnx-text-project_g not found
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.verifyProgramPath(AbstractCLaunchDelegate.java:455)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getLaunch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:784)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.cdt.launch.internal.MultiLaunchConfigurationDelegate.launch(MultiLaunchConfigurationDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:50:06.248
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:50:11.274
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:50:16.497
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.

@@ -102,10 +102,10 @@ int main(int argc, char *argv[]) {
 	char* taskName = argv[1];
 
 	if (strcmp(taskName, TASK_AIRBAG) == 0) {
-		startAirbag();
+		taskAirbag(NULL);
 	} else if (strcmp(taskName, TASK_MEMORY) == 0) {
 		taskMemoryCheck(NULL);
-	} else if (strcmp(taskName, TASK_MEMORY) == 0) {
+	} else if (strcmp(taskName, TASK_SERIAL) == 0) {
 		taskSerialLine(NULL);
 	} else {
 		return EXIT_FAILURE;
