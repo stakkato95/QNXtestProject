@@ -1,14 +1,25 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <pthread.h>
+//#include <pthread.h>
 #include <unistd.h>
 #include <time.h>
+#include <errno.h>
+#include <string.h>
+#include <process.h>
 
 #include "my_time.h"
 #include "airbag.h"
 #include "serial_line.h"
 #include "memory_check.h"
 #include "aes.h"
+
+#define FORK_ERROR -1
+#define CHILD_PROZESS 0
+#define OK 100500
+
+#define TASK_AIRBAG "taskAirbag"
+#define TASK_MEMORY "taskMemoryCheck"
+#define TASK_SERIAL "taskSerialLine"
 
 void taskAirbagInternal() {
 	//airbagLoop() is implementation of airbag algorithm from
@@ -39,7 +50,8 @@ void taskMemoryCheckInternal(unsigned char* flashCheckResult) {
 	//(serial line is a shared resource protected with a mutex).
 	//parameter "1" is a debug flag to indicate that sendOnSerialLine
 	//was called from taskMemoryCheck. It's needed for debug purposes.
-	sendOnSerialLine(flashCheckResult, N_BLOCK, 1);
+	//TODO send on serial line is disabled for Assignment 5 (since IPC is not yet implemented)
+	//sendOnSerialLine(flashCheckResult, N_BLOCK, 1);
 	//sleep for 500 ms
 	flashCheckSleep();
 }
@@ -87,20 +99,17 @@ void* taskSerialLine(void* args) {
 }
 
 int main(int argc, char *argv[]) {
-	//created IDs for threads
-	pthread_t threadIDairbag;
-	pthread_t threadIDmemoryCheck;
-	pthread_t threadIDserialLine;
+	char* taskName = argv[1];
 
-	//create threads
-	pthread_create(&threadIDairbag, NULL, taskAirbag, NULL);
-	pthread_create(&threadIDmemoryCheck, NULL, taskMemoryCheck, NULL);
-	pthread_create(&threadIDserialLine, NULL, taskSerialLine, NULL);
-
-	//wait till threads are finished
-	pthread_join(threadIDairbag, NULL);
-	pthread_join(threadIDmemoryCheck, NULL);
-	pthread_join(threadIDserialLine, NULL);
+	if (strcmp(taskName, TASK_AIRBAG) == 0) {
+		startAirbag();
+	} else if (strcmp(taskName, TASK_MEMORY) == 0) {
+		taskMemoryCheck(NULL);
+	} else if (strcmp(taskName, TASK_MEMORY) == 0) {
+		taskSerialLine(NULL);
+	} else {
+		return EXIT_FAILURE;
+	}
 
 	return EXIT_SUCCESS;
 }

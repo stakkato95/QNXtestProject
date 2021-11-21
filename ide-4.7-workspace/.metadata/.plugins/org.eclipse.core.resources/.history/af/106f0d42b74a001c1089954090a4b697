@@ -1,0 +1,164 @@
+#include <stdlib.h>
+#include <stdio.h>
+//#include <pthread.h>
+#include <unistd.h>
+#include <time.h>
+#include <errno.h>
+#include <string.h>
+#include <process.h>
+
+#include "my_time.h"
+#include "airbag.h"
+#include "serial_line.h"
+#include "memory_check.h"
+#include "aes.h"
+
+#define FORK_ERROR -1
+#define CHILD_PROZESS 0
+#define OK 100500
+
+#define TASK_AIRBAG "taskAirbag"
+#define TASK_MEMORY "taskMemoryCheck"
+
+void taskAirbagInternal() {
+	//airbagLoop() is implementation of airbag algorithm from
+	// Assignment 1
+	airbagLoop();
+	//For debug purposes airbag prints info, that outer loop
+	//was called. It's needed to differentiate between calls
+	//of outer and inner loop of airbag algorithm (again for
+	//debug purposes).
+	//printf("airbag task loop\n");
+	//flushall();
+	//sleep for 1 ms in outer loop
+	//airbagSleep();
+}
+
+void* taskAirbag(void* args) {
+	for (;;) {
+		taskAirbagInternal();
+	}
+
+	return NULL;
+}
+
+void taskMemoryCheckInternal(unsigned char* flashCheckResult) {
+	//calculate CRC, encrypt it with AES and wrote to flashCheckResult
+	performMemoryCheck(flashCheckResult);
+	//send flashCheckResult on serial line if it's currently available
+	//(serial line is a shared resource protected with a mutex).
+	//parameter "1" is a debug flag to indicate that sendOnSerialLine
+	//was called from taskMemoryCheck. It's needed for debug purposes.
+	//TODO send on serial line is disabled for Assignment 5 (since IPC is not yet implemented)
+	//sendOnSerialLine(flashCheckResult, N_BLOCK, 1);
+	//sleep for 500 ms
+	flashCheckSleep();
+}
+
+void* taskMemoryCheck(void* args) {
+	//initialize array, which should contain results of flash check
+	unsigned char* flashCheckResult = calloc(N_BLOCK, sizeof(unsigned char));
+	//initialize AES and a dummy flash segment from memory_check.c
+	initMemoryCheck();
+
+	for (;;) {
+		taskMemoryCheckInternal(flashCheckResult);
+	}
+
+	return NULL;
+}
+
+void taskSerialLineInternal(unsigned char* serialLineData, unsigned char* serialLineStatusMessage) {
+	//receive a command from serial line
+	int command = receiveCommand();
+	//print command for debug purposes. There are two possible commands:
+	//COMMAND_A and COMMAND_B
+	printf("Command %c received on serial line\n", command == COMMAND_A ? 'A' : 'B');
+	//encrypt dummy status message. Result is written to serialLineData
+	prepareToSendOnSerialLine(serialLineStatusMessage, serialLineData);
+	//send encrypted status message on serial line. This call is protected by a mutex
+	sendOnSerialLine(serialLineData, N_BLOCK, 0);
+	//sleep 100 ms
+	serialLineSleep();
+}
+
+void* taskSerialLine(void* args) {
+	//initialize array which should contain encrypted result of status message
+	unsigned char* serialLineData = calloc(N_BLOCK, sizeof(unsigned char));
+	//initialize dummy status message
+	unsigned char* serialLineStatusMessage = "serial status";
+	//initialize AES for serial line
+	initSerialLine();
+
+	for (;;) {
+		taskSerialLineInternal(serialLineData, serialLineStatusMessage);
+	}
+
+	return NULL;
+}
+
+int startMemoryCheck() {
+	pid_t pid;
+
+	if ((pid = fork()) == FORK_ERROR) {
+		char str[80];
+		sprintf(str, "Error when performing fork for taskMemoryCheck (%s)", strerror(errno));
+		perror(str);
+		return EXIT_FAILURE;
+	}
+
+	if (pid == CHILD_PROZESS) {
+		taskMemoryCheck(NULL);
+		return EXIT_SUCCESS;
+	}
+
+	return OK;
+}
+
+int startSerialLine() {
+	pid_t pid;
+
+	if ((pid = fork()) == FORK_ERROR) {
+		char str[80];
+		sprintf(str, "Error when performing fork for taskSerialLine (%s)", strerror(errno));
+		perror(str);
+		return EXIT_FAILURE;
+	}
+
+	if (pid == CHILD_PROZESS) {
+		taskSerialLine(NULL);
+		return EXIT_SUCCESS;
+	}
+
+	return OK;
+}
+
+void startAirbag() {
+	taskAirbag(NULL);
+}
+
+int main1(int argc, char *argv[]) {
+	taskSerialLine(NULL);
+	return EXIT_SUCCESS;
+}
+
+int main(int argc, char *argv[]) {
+	char* taskName = argv[1];
+
+	if (strcmp(taskName, TASK_AIRBAG) == 0) {
+		startAirbag();
+	} else if (strcmp(taskName, TASK_MEMORY) == 0) {
+		taskMemoryCheck(NULL);
+	}
+
+//	int returnValue = OK;
+//	if ((returnValue = startMemoryCheck()) != OK) {
+//		return returnValue;
+//	}
+//	if ((returnValue = startSerialLine()) != OK) {
+//		return returnValue;
+//	}
+//	startAirbag();
+
+	return EXIT_SUCCESS;
+}

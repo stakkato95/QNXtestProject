@@ -1,0 +1,343 @@
+<db id="1" version="2">
+  <propertyTab id="2">
+    <map id="3">
+      <entry>
+        <string>__start_thread</string>
+        <property id="4">
+          <id>-1</id>
+          <name>__start_thread</name>
+          <value>2956066928</value>
+        </property>
+      </entry>
+      <entry>
+        <string>__prof</string>
+        <property id="5">
+          <id>-1</id>
+          <name>__prof</name>
+          <value>134530109</value>
+        </property>
+      </entry>
+      <entry>
+        <string>cyc</string>
+        <property id="6">
+          <id>-1</id>
+          <name>cyc</name>
+          <value>1992160100</value>
+        </property>
+      </entry>
+      <entry>
+        <string>sessionName</string>
+        <property id="7">
+          <id>-1</id>
+          <name>sessionName</name>
+          <value>qnx-text-project</value>
+        </property>
+      </entry>
+      <entry>
+        <string>last_time</string>
+        <property id="8">
+          <id>-1</id>
+          <name>last_time</name>
+          <value>29261903208</value>
+        </property>
+      </entry>
+      <entry>
+        <string>timestamp</string>
+        <property id="9">
+          <id>-1</id>
+          <name>timestamp</name>
+          <value>61422</value>
+        </property>
+      </entry>
+      <entry>
+        <string>samping_rate</string>
+        <property id="10">
+          <id>-1</id>
+          <name>samping_rate</name>
+          <value>1</value>
+        </property>
+      </entry>
+    </map>
+  </propertyTab>
+  <binTab id="11">
+    <table id="12">
+      <bin id="13">
+        <id>0</id>
+        <name>qnx-text-project_g</name>
+      </bin>
+      <bin id="14">
+        <id>1</id>
+        <name>unknown</name>
+      </bin>
+    </table>
+  </binTab>
+  <fileTab id="15">
+    <table id="16">
+      <file id="17">
+        <id>0</id>
+        <name>serial_line.c</name>
+      </file>
+      <file id="18">
+        <id>1</id>
+        <name></name>
+      </file>
+      <file id="19">
+        <id>2</id>
+        <name>Z:/code/QNXtestProject/ide-4.7-workspace/qnx-text-project/qnx-text-project.c</name>
+      </file>
+    </table>
+  </fileTab>
+  <locTab id="20">
+    <locIndex id="21">
+      <entry>
+        <long>134530109</long>
+        <loc id="22">
+          <id>-1</id>
+          <addr>134530109</addr>
+          <line>-1</line>
+          <file reference="17"/>
+          <binary reference="13"/>
+          <function id="23">
+            <id>0</id>
+            <name>__prof</name>
+            <loc reference="22"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>2956066928</long>
+        <loc id="24">
+          <id>-1</id>
+          <addr>2956066928</addr>
+          <line>-1</line>
+          <binary reference="14"/>
+          <function id="25">
+            <id>1</id>
+            <name>__start_thread</name>
+            <loc reference="24"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134516696</long>
+        <loc id="26">
+          <id>-1</id>
+          <addr>134516696</addr>
+          <line>-1</line>
+          <file reference="18"/>
+          <binary reference="13"/>
+          <function id="27">
+            <id>2</id>
+            <name>_start</name>
+            <loc reference="26"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134516825</long>
+        <loc id="28">
+          <id>-1</id>
+          <addr>134516825</addr>
+          <line>-1</line>
+          <file reference="18"/>
+          <binary reference="13"/>
+          <function reference="27"/>
+        </loc>
+      </entry>
+      <entry>
+        <long>134528045</long>
+        <loc id="29">
+          <id>-1</id>
+          <addr>134528045</addr>
+          <line>137</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function id="30">
+            <id>-1</id>
+            <name>main</name>
+            <loc reference="29"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134528074</long>
+        <loc id="31">
+          <id>-1</id>
+          <addr>134528074</addr>
+          <line>138</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function id="32">
+            <id>3</id>
+            <name>main</name>
+            <loc reference="29"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134528086</long>
+        <loc id="33">
+          <id>-1</id>
+          <addr>134528086</addr>
+          <line>139</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function reference="32"/>
+        </loc>
+      </entry>
+      <entry>
+        <long>134527681</long>
+        <loc id="34">
+          <id>-1</id>
+          <addr>134527681</addr>
+          <line>97</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function id="35">
+            <id>4</id>
+            <name>startMemoryCheck</name>
+            <loc reference="34"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134527707</long>
+        <loc id="36">
+          <id>-1</id>
+          <addr>134527707</addr>
+          <line>100</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function reference="35"/>
+        </loc>
+      </entry>
+      <entry>
+        <long>134529269</long>
+        <loc id="37">
+          <id>-1</id>
+          <addr>134529269</addr>
+          <line>-1</line>
+          <file reference="17"/>
+          <binary reference="13"/>
+          <function id="38">
+            <id>5</id>
+            <name>dump_record</name>
+            <loc reference="37"/>
+          </function>
+        </loc>
+      </entry>
+      <entry>
+        <long>134530108</long>
+        <loc id="39">
+          <id>-1</id>
+          <addr>134530108</addr>
+          <line>-1</line>
+          <file reference="17"/>
+          <binary reference="13"/>
+          <function reference="38"/>
+        </loc>
+      </entry>
+      <entry>
+        <long>134528161</long>
+        <loc id="40">
+          <id>-1</id>
+          <addr>134528161</addr>
+          <line>147</line>
+          <file reference="19"/>
+          <binary reference="13"/>
+          <function reference="32"/>
+        </loc>
+      </entry>
+    </locIndex>
+  </locTab>
+  <funcTab id="41">
+    <table id="42">
+      <func reference="23"/>
+      <func reference="25"/>
+      <func reference="27"/>
+      <func reference="32"/>
+      <func reference="35"/>
+      <func reference="38"/>
+    </table>
+  </funcTab>
+  <recordTab id="43">
+    <table id="44">
+      <record id="45">
+        <id>0</id>
+        <firstEnterTime>61422</firstEnterTime>
+        <lastEnterTime>61422</lastEnterTime>
+        <firstChild id="46">
+          <id>1</id>
+          <firstEnterTime>62390</firstEnterTime>
+          <lastEnterTime>62390</lastEnterTime>
+          <parent reference="45"/>
+          <sibling id="47">
+            <id>2</id>
+            <firstEnterTime>29261253103</firstEnterTime>
+            <lastEnterTime>29261253103</lastEnterTime>
+            <parent reference="45"/>
+            <tid>1</tid>
+            <cpu>0</cpu>
+            <from reference="39"/>
+            <toLoc reference="22"/>
+            <totalCount>1</totalCount>
+            <totalDuration>428542</totalDuration>
+            <max>428542</max>
+            <min>428542</min>
+          </sibling>
+          <tid>1</tid>
+          <cpu>0</cpu>
+          <from reference="33"/>
+          <toLoc reference="34"/>
+          <totalCount>1</totalCount>
+          <totalDuration>29261175598</totalDuration>
+          <max>29261175598</max>
+          <min>29261175598</min>
+        </firstChild>
+        <parent id="48">
+          <id>-1</id>
+          <firstEnterTime>61422</firstEnterTime>
+          <lastEnterTime>61422</lastEnterTime>
+          <firstChild reference="45"/>
+          <tid>1</tid>
+          <cpu>0</cpu>
+          <totalCount>0</totalCount>
+          <totalDuration>29261841786</totalDuration>
+          <max>29261841786</max>
+          <min>29261841786</min>
+        </parent>
+        <sibling id="49">
+          <id>3</id>
+          <firstEnterTime>29261688443</firstEnterTime>
+          <lastEnterTime>29261688443</lastEnterTime>
+          <parent reference="48"/>
+          <tid>1</tid>
+          <cpu>0</cpu>
+          <from reference="39"/>
+          <toLoc reference="22"/>
+          <totalCount>1</totalCount>
+          <totalDuration>214765</totalDuration>
+          <max>214765</max>
+          <min>214765</min>
+        </sibling>
+        <tid>1</tid>
+        <cpu>0</cpu>
+        <from reference="28"/>
+        <toLoc reference="29"/>
+        <totalCount>1</totalCount>
+        <totalDuration>29261623037</totalDuration>
+        <max>29261623037</max>
+        <min>29261623037</min>
+      </record>
+      <record reference="46"/>
+      <record reference="47"/>
+      <record reference="49"/>
+    </table>
+  </recordTab>
+  <sampleTab id="50">
+    <table id="51"/>
+  </sampleTab>
+  <callpairTab id="52">
+    <table id="53"/>
+  </callpairTab>
+</db>

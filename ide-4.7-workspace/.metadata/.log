@@ -7848,3 +7848,738 @@ HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.e
 HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
 	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
 	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@1f07597),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1f07597)),sourcePriority=16640)
+!SESSION 2021-11-21 08:42:41.322 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 08:42:41.993
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 08:43:06.913
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 08:43:06.913
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@bb0406),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@bb0406),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406)),sourcePriority=16640)
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 08:46:15.955
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx53143.tmp' to '/tmp/qnx-text-project_guser16374807757041' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 08:46:16.080
+!MESSAGE NLS missing message: ExportWizardPage_ErrorsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 08:46:16.080
+!MESSAGE NLS missing message: ExportWizardPage_EventsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 08:46:43.561
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx53146.tmp' to '/tmp/qnx-text-project_guser16374808032952' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 08:49:03.916
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:04:37.011
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:06:25.913
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:07:09.012
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+!SESSION 2021-11-21 09:09:23.864 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 09:09:24.647
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 09:09:33.034
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 09:09:33.034
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@17d2f0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17d2f0e)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@17d2f0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17d2f0e)),sourcePriority=16640)
+!SESSION 2021-11-21 09:11:37.374 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 09:11:38.140
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 09:11:45.907
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 09:11:45.907
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@17d2f0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17d2f0e)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@17d2f0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17d2f0e)),sourcePriority=16640)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:13:06.331
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:15:07.290
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:19:23.293
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:23:55.695
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:24:45.448
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 09:26:39.850
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx45054.tmp' to '/tmp/qnx-text-project_guser16374831995066' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:28:53.503
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:32:16.813
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:46:42.613
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:47:04.812
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:54:51.413
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:58:31.569
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 09:59:46.053
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:07:14.104
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:07:42.526
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:09:18.860
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:09:30.237
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:09:35.397
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:09:56.739
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:10:07.920
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:10:38.212
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:12:34.262
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:12:49.767
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:13:27.181
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:13:52.256
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:14:54.044
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:16:31.907
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:20:40.707
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 10:21:13.468
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+!SESSION 2021-11-21 10:23:19.181 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 10:23:19.885
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 10:23:28.692
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 10:23:28.692
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@2b2af3),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@2b2af3)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@2b2af3),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@2b2af3)),sourcePriority=16640)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 10:23:43.306
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceLaunch.<init>(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getLaunchService(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.preValidateSession(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.createSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.createDebuggerSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$2.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.fsys 4 4 2021-11-21 10:23:56.155
+!MESSAGE Error
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.receiveResponse(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.command(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.command(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.close(Unknown Source)
+	at com.qnx.tools.ide.fsys.core.FsysFileResource.close(Unknown Source)
+	at com.qnx.tools.ide.fsys.core.FsysAsyncInputStream.close(Unknown Source)
+	at com.qnx.tools.ide.mat.internal.core.neutrino.RcheckDataCollectionControls.closeInputStream(Unknown Source)
+	at com.qnx.tools.ide.mat.internal.core.neutrino.RcheckDataCollectionControls.terminateReadingThread(Unknown Source)
+	at com.qnx.tools.ide.mat.internal.core.neutrino.NTODataCollectionControls.terminate(Unknown Source)
+	at com.qnx.tools.ide.mat.core.collection.impl.DataCollectionProcess.terminate(Unknown Source)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2314)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:597)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 10:27:42.670
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceLaunch.<init>(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getLaunchService(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.preValidateSession(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.createSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.createDebuggerSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$2.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2021-11-21 10:27:59.630
+!MESSAGE An error occurred while automatically activating bundle com.qnx.tools.ide.qde.debug.core (55).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getPluginID(Unknown Source)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.cancel(AbstractCLaunchDelegate.java:224)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2021-11-21 10:27:59.645
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.core.runtime (136).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.MultiSourcePackage.loadClass(MultiSourcePackage.java:31)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.QdeUiPlugin.log(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.QdeUiPlugin.log(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-11-21 10:28:01.802 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 10:28:02.489
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 10:28:09.215
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 10:28:09.215
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e2c9bf)),sourcePriority=16640)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 10:28:38.822
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceLaunch.<init>(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getLaunchService(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.preValidateSession(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.createSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.createDebuggerSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$2.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 10:28:53.458
+!MESSAGE NLS missing message: ExportWizardPage_ErrorsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 10:28:53.458
+!MESSAGE NLS missing message: ExportWizardPage_EventsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY org.eclipse.osgi 4 0 2021-11-21 10:29:14.803
+!MESSAGE An error occurred while automatically activating bundle com.qnx.tools.ide.qde.debug.core (55).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.getPluginID(Unknown Source)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.cancel(AbstractCLaunchDelegate.java:224)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2021-11-21 10:29:14.803
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.debug.core (142).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-11-21 10:51:38.322 -----------------------------------------------
+eclipse.buildId=201006232051
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2021-11-21 10:51:38.977
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2021-11-21 10:52:08.837
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2021-11-21 10:52:08.837
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@7ab40c),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@7ab40c)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ui.cheatsheets.CheatSheetExtensionFactory:helpMenuAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.ui.cheatsheets.actionSet,org.eclipse.ui.internal.WorkbenchWindow@7ab40c),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@7ab40c)),sourcePriority=16640)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 10:52:38.962
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceLaunch.<init>(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getLaunchService(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.preValidateSession(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.createSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.createDebuggerSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$2.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.debug.core 4 0 2021-11-21 10:54:24.526
+!MESSAGE Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.QConnSocket.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetBinary.<init>(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.<init>(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDELaunch.getFileService(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-11-21 10:54:45.697
+!MESSAGE Error logged from Debug UI: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration qdelaunch (2) at file:/Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/qdelaunch%20(2).launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:887)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1337)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.ui.DefaultLabelProvider.getImageKey(DefaultLabelProvider.java:158)
+	at org.eclipse.debug.internal.ui.DefaultLabelProvider.getImage(DefaultLabelProvider.java:60)
+	at org.eclipse.debug.internal.ui.DelegatingModelPresentation.getDefaultImage(DelegatingModelPresentation.java:197)
+	at org.eclipse.debug.internal.ui.DelegatingModelPresentation.getImage(DelegatingModelPresentation.java:149)
+	at org.eclipse.jface.viewers.WrappedViewerLabelProvider.getImage(WrappedViewerLabelProvider.java:117)
+	at org.eclipse.jface.viewers.WrappedViewerLabelProvider.update(WrappedViewerLabelProvider.java:165)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:145)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:932)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1012)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:481)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:827)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createAddedElements(AbstractTreeViewer.java:393)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalAdd(AbstractTreeViewer.java:270)
+	at org.eclipse.jface.viewers.TreeViewer.internalAdd(TreeViewer.java:657)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationViewer.internalAdd(LaunchConfigurationViewer.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:664)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationView.handleConfigurationAdded(LaunchConfigurationView.java:276)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationView.access$1(LaunchConfigurationView.java:272)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationView$2.run(LaunchConfigurationView.java:261)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1065)
+	at org.eclipse.debug.ui.DebugUITools$1.run(DebugUITools.java:398)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:406)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:340)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2021-11-21 10:54:45.697
+!MESSAGE Launch configuration qdelaunch (2) at file:/Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/qdelaunch%20(2).launch does not exist.
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-21 10:57:57.815
+!MESSAGE An internal error occurred during: "Creating debugger session ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.preValidateSession(Unknown Source)
+	at com.qnx.tools.ide.qde.debug.internal.core.QDECDIDebugger.createSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.createDebuggerSession(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$2.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-21 10:57:57.815
+!MESSAGE An internal error occurred during: "Downloading and starting the application ...".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at com.qnx.tools.ide.qde.internal.ui.QdeUiPlugin.coreException(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.notifyDelegates(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 10:58:14.597
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx30780.tmp' to '/tmp/qnx-text-project_guser16374886943302' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.qde.ui 4 0 2021-11-21 10:58:52.565
+!MESSAGE Transfer of 'C:\Users\user\AppData\Local\Temp\qnx-text-project_gxx30781.tmp' to '/tmp/qnx-text-project_guser16374887322683' failed.
+!STACK 0
+com.qnx.tools.utils.target.RemoteIOException: Write error: No space left on device
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetServiceFile.write(Unknown Source)
+	at com.qnx.tools.utils.target.TargetFileDownload.download(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchUtils.transferFile(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate.prepareAndDownloadBinaries(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$1.doRun(Unknown Source)
+	at com.qnx.tools.ide.qde.internal.ui.launch.QDELaunchConfigurationDelegate$QDELaunchJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:00:13.331
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:01:33.345
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 11:06:28.096
+!MESSAGE NLS missing message: ExportWizardPage_ErrorsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY org.eclipse.osgi 2 1 2021-11-21 11:06:28.096
+!MESSAGE NLS missing message: ExportWizardPage_EventsDescription in: com.qnx.tools.ide.profiler2.ui.exportWizards.messages
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:06:28.301
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:08:57.442
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:11:43.325
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:12:56.651
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:14:29.398
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:15:20.544
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:15:43.873
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:24:52.268
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:26:01.316
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:28:02.494
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:32:08.061
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:32:48.762
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:34:48.023
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:36:05.053
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 11:36:10.048
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
