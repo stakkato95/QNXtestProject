@@ -140,8 +140,9 @@ int initHamAndHeartbit(char* taskName, char* executableName) {
 	char* killCmd = calloc(25, sizeof(char));
 	sprintf(killCmd, "/bin/kill -9 %d", getpid());
 
-	char* relaunchPath = calloc(100, sizeof(char));
-	sprintf(relaunchPath, "/tmp/%s %s", executableName, taskName);
+	char* relaunchPath = calloc(150, sizeof(char));
+//	sprintf(relaunchPath, "cd /tmp; %s %s", executableName, taskName);
+//	sprintf(relaunchPath, "/tmp/qnx-text-project_g", executableName, taskName);
 
 	ham_connect(0);
 
@@ -165,9 +166,16 @@ int initHamAndHeartbit(char* taskName, char* executableName) {
 
 	//free(killCmd);
 
-	ham_entity_t *ehdl = ham_attach(taskName, ND_LOCAL_NODE, getpid(), relaunchPath, 0);
+	char* taskNameWithPid = calloc(50, sizeof(char));
+	sprintf(taskNameWithPid, "%s-%d", taskName, getpid());
+
+	ham_entity_t *ehdl = ham_attach(taskNameWithPid, ND_LOCAL_NODE, -1, "/tmp/airbag", 0);
+	ham_entity_t *ehdl = ham_attach(taskNameWithPid, ND_LOCAL_NODE, -1, "/tmp/memory", 0);
+	ham_entity_t *ehdl = ham_attach(taskNameWithPid, ND_LOCAL_NODE, -1, "/tmp/serial", 0);
 	if (ehdl == NULL) {
-		perror("initHam() ham_attach error - OK");
+		char* errMsg = calloc(100, sizeof(char));
+		sprintf(errMsg, "initHam() ham_attach error - OK %d", getpid());
+		perror(errMsg);
 		return OK;
 	}
 
@@ -178,7 +186,7 @@ int initHamAndHeartbit(char* taskName, char* executableName) {
 		return EXIT_FAILURE;
 	}
 
-	ham_action_t *ahdl = ham_action_restart(chdl, "restart", relaunchPath, HREARMAFTERRESTART);
+	ham_action_t *ahdl = ham_action_restart(chdl, "restart", "/tmp/qnx-text-project_g taskAirbag", HREARMAFTERRESTART);
 	if (ahdl == NULL) {
 		perror("initHam() ham_action_restart(restart) error");
 		return EXIT_FAILURE;
@@ -243,6 +251,15 @@ int initHamAndHeartbit(char* taskName, char* executableName) {
 int main(int argc, char *argv[]) {
 	char* executableName = argv[0];
 	char* taskName = argv[1];
+
+//	if (fork() == FORK_ERROR) {
+//		char* errMsg = calloc(100, sizeof(char));
+//		sprintf(errMsg, "fork err: %s", strerror(errno));
+//		perror(errMsg);
+//		return EXIT_FAILURE;
+//	} else {
+//		return EXIT_SUCCESS;
+//	}
 
 	int returnValue = OK;
 	if (strcmp(taskName, TASK_AIRBAG) == 0) {

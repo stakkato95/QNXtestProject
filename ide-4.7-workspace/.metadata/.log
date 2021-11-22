@@ -1948,3 +1948,588 @@ java.net.SocketTimeoutException: Read timed out
 
 !ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 17:09:01.373
 !MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:11.067
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Database.markFileIncomplete(Database.java:744)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:707)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:667)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:862)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:214)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:163)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:723)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:679)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:565)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:316)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.markFileIncomplete(Database.java:742)
+	... 13 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:11.067
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.markFileIncomplete(Database.java:742)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:707)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:667)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:862)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:127)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.storeSymbolsInIndex(PDOMWriter.java:214)
+	at org.eclipse.cdt.internal.core.pdom.PDOMWriter.addSymbols(PDOMWriter.java:163)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:723)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:679)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:565)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:316)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:11.067
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:11.067
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:12.646
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:12.646
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:19.303
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:19.303
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:23.021
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:23.021
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:37.114
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:37.114
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-21 17:27:44.521
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-21 17:27:44.521
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 17:28:15.724
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-21 17:30:30.297
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 14:47:51.284
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:07:56.153
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-22 15:07:56.153
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:08:03.574
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-22 15:08:03.574
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:08:14.309
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-22 15:08:14.309
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:08:20.480
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-22 15:08:20.480
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-11-22 15:08:23.637
+!MESSAGE Error: IOException
+!STACK 1
+org.eclipse.core.runtime.CoreException: IOException
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:53)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2021-11-22 15:08:23.637
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: The parameter is incorrect
+	at sun.nio.ch.FileDispatcher.pwrite0(Native Method)
+	at sun.nio.ch.FileDispatcher.pwrite(Unknown Source)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.write(Unknown Source)
+	at sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:159)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:51)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:712)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:699)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1166)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:92)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:136)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:319)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:122)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:09:01.074
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:13:44.587
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:15:06.110
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:18:45.973
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:19:50.628
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:21:12.749
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:23:28.615
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:34:30.199
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 15:52:09.983
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:03:32.550
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:23:41.537
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:25:25.095
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:27:40.034
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:29:26.957
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.

@@ -77,7 +77,7 @@
 <intAttribute key="com.qnx.tools.ide.qde.core.TARGET_PRIO" value="10"/>
 <stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_RUN_PERSPECTIVE" value="com.qnx.tools.ide.profiler2.ui.ProfilerPerspective"/>
 <stringAttribute key="com.qnx.tools.ide.qde.core.TARGET_SCHED" value="r"/>
-<booleanAttribute key="com.qnx.tools.ide.qde.core.USE_UNIQ_NAME" value="true"/>
+<booleanAttribute key="com.qnx.tools.ide.qde.core.USE_UNIQ_NAME" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB" value="true"/>
 <listAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB_LIST"/>
 <stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="gdb"/>
