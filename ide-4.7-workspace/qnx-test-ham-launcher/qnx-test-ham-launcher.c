@@ -45,13 +45,13 @@ int registerTask(char* taskName, char* executableParam) {
 
 int main(int argc, char *argv[]) {
 	int returnVal;
-	if ((returnVal = registerTask("airbag", "taskAirbag")) != OK) {
+	if ((returnVal = registerTask("taskAirbag", "taskAirbag")) != OK) {
 		return returnVal;
 	}
-	if ((returnVal = registerTask("memory", "taskMemoryCheck")) != OK) {
+	if ((returnVal = registerTask("taskMemoryCheck", "taskMemoryCheck")) != OK) {
 		return returnVal;
 	}
-	if ((returnVal = registerTask("serial", "taskSerialLine")) != OK) {
+	if ((returnVal = registerTask("taskSerialLine", "taskSerialLine")) != OK) {
 		return returnVal;
 	}
 

@@ -101,8 +101,53 @@ void* taskSerialLine(void* args) {
 	return NULL;
 }
 
+int attachSelfToHam(char* taskName) {
+	ham_entity_t* ehdl;
+	ham_condition_t* chdl;
+	ham_action_t *ahdl;
+
+	char* buffer = calloc(100, sizeof(char));
+	sprintf(buffer, "/bin/kill -9 %d", getpid());
+
+	char* uniqueTaskName = calloc(150, sizeof(char));
+	sprintf(uniqueTaskName, "%s", taskName);
+
+	ham_connect(0);
+
+	ehdl = ham_attach_self("qnx-text-project_g", 1000000000ULL, 3, 8, 0);
+	if (ehdl == NULL) {
+		char* errMsg = calloc(150, sizeof(char));
+		sprintf(errMsg, "test-project: ham_attach_self error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+
+	chdl = ham_condition(ehdl, CONDHBEATMISSEDLOW, "HeartbeatLow", 0);
+	if (chdl == NULL) {
+		char* errMsg = calloc(150, sizeof(char));
+		sprintf(errMsg, "test-project: ham_condition error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+
+	ahdl = ham_action_execute(chdl, "Kill", buffer, HREARMAFTERRESTART);
+	if (ahdl == NULL) {
+		char* errMsg = calloc(150, sizeof(char));
+		sprintf(errMsg, "test-project: ham_action_execute error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+
+	return OK;
+}
+
 int main(int argc, char *argv[]) {
 	char* taskName = argv[1];
+
+//	int returnVal;
+//	if ((returnVal = attachSelfToHam(taskName)) != OK) {
+//		return returnVal;
+//	}
 
 	if (strcmp(taskName, TASK_AIRBAG) == 0) {
 		taskAirbag(NULL);

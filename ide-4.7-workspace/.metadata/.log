@@ -2539,3 +2539,18 @@ java.io.IOException: The parameter is incorrect
 
 !ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:19:23.578
 !MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:43:10.205
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:45:37.656
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:50:01.226
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:56:55.328
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 21:03:54.699
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
