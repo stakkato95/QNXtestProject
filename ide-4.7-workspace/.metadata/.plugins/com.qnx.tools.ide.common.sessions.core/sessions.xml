@@ -593,7 +593,10 @@
 <session id="263" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637594860893">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/263"/>
 </session>
-<session id="264" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637594967896">
+<session id="264" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;/&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637594967896">
 <property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/264"/>
+</session>
+<session id="265" name="qnx-text-project-airbag" sourceMemento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;default/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.default&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;" startTime="1637608764547">
+<property advanced="true" name="Session Persistent Storage" value="Z:/code/QNXtestProject/ide-4.7-workspace/.metadata/.plugins/com.qnx.tools.ide.profiler2.core/265"/>
 </session>
 </sessions>

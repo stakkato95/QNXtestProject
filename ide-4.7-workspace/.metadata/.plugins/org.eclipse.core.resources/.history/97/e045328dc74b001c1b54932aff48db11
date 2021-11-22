@@ -1,0 +1,33 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+#include <string.h>
+#include <process.h>
+#include <ha/ham.h>
+
+#define OK 100500
+
+void registerTask(char* taskName, char* executableName) {
+	ham_connect(0);
+
+	ham_entity_t *ehdl = ham_attach(taskNameWithPid, ND_LOCAL_NODE, -1, "/tmp/serial", 0);
+	if (ehdl == NULL) {
+		char* errMsg = calloc(100, sizeof(char));
+		sprintf(errMsg, "initHam() ham_attach error - OK %d", getpid());
+		perror(errMsg);
+		return OK;
+	}
+
+	ham_disconnect(0);
+
+	return OK;
+}
+
+int main(int argc, char *argv[]) {
+	registerTask("airbag", )
+
+
+
+
+	return EXIT_SUCCESS;
+}

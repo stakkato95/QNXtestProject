@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <ha/ham.h>
+
+void register
+
+int main(int argc, char *argv[]) {
+
+	ham_connect(0);
+
+	ham_disconnect(0);
+
+	return EXIT_SUCCESS;
+}

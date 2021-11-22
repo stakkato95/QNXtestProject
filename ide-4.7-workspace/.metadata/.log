@@ -2533,3 +2533,9 @@ java.io.IOException: The parameter is incorrect
 
 !ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 16:29:26.957
 !MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-22 20:03:09.048
+!MESSAGE Indexed 'qnx-test-ham-launcher' (1 sources, 25 headers) in 0.44 sec: 1,256 declarations; 965 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.qnx.tools.ide.coverage.ui 2 0 2021-11-22 20:19:23.578
+!MESSAGE The project needs to be built with Code Coverage in order to create the necessary data files.  Rebuild the project with code coverage in order to get Code Coverage data.
