@@ -66,6 +66,7 @@ void* taskMemoryCheck(void* args) {
 	initMemoryCheck();
 
 	for (;;) {
+		ham_heartbeat();
 		taskMemoryCheckInternal(flashCheckResult);
 	}
 
@@ -95,6 +96,7 @@ void* taskSerialLine(void* args) {
 	initSerialLine();
 
 	for (;;) {
+		ham_heartbeat();
 		taskSerialLineInternal(serialLineData, serialLineStatusMessage);
 	}
 
@@ -106,22 +108,23 @@ int attachSelfToHam(char* taskName) {
 	ham_condition_t* chdl;
 	ham_action_t *ahdl;
 
-	char* buffer = calloc(100, sizeof(char));
-	sprintf(buffer, "/bin/kill -9 %d", getpid());
+	//string to kill the process
+	char* killCmd = calloc(100, sizeof(char));
+	sprintf(killCmd, "/bin/kill -9 %d", getpid());
 
-	char* uniqueTaskName = calloc(150, sizeof(char));
-	sprintf(uniqueTaskName, "%s", taskName);
+	//path of the executable on disk
+	char* relaunchPath = calloc(150, sizeof(char));
+	sprintf(relaunchPath, "/tmp/qnx-text-project_g %s", taskName);
 
-	ham_connect(0);
-
-	ehdl = ham_attach_self("qnx-text-project_g", 1000000000ULL, 3, 8, 0);
+	//attaching current task to ham with heartbeat timeout 5 sec
+	ehdl = ham_attach_self(taskName, 5000000000ULL, 1, 8, 0);
 	if (ehdl == NULL) {
 		char* errMsg = calloc(150, sizeof(char));
 		sprintf(errMsg, "test-project: ham_attach_self error: %s", strerror(errno));
 		perror(errMsg);
 		return EXIT_FAILURE;
 	}
-
+	// create heartbeat condition
 	chdl = ham_condition(ehdl, CONDHBEATMISSEDLOW, "HeartbeatLow", 0);
 	if (chdl == NULL) {
 		char* errMsg = calloc(150, sizeof(char));
@@ -129,11 +132,44 @@ int attachSelfToHam(char* taskName) {
 		perror(errMsg);
 		return EXIT_FAILURE;
 	}
-
-	ahdl = ham_action_execute(chdl, "Kill", buffer, HREARMAFTERRESTART);
+	//kill action if no heartbeat commes within 5 sec
+	ahdl = ham_action_execute(chdl, "Kill", killCmd, HREARMAFTERRESTART);
 	if (ahdl == NULL) {
 		char* errMsg = calloc(150, sizeof(char));
 		sprintf(errMsg, "test-project: ham_action_execute error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+	//log killing current process
+	ahdl = ham_action_log(chdl, "loggingKill", "loggingKill", 0, 0, HREARMAFTERRESTART);
+	if (ahdl == NULL) {
+		char* errMsg = calloc(150, sizeof(char));
+		sprintf(errMsg, "test-project: ham_action_log error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+
+	// create death condition
+	chdl = ham_condition(ehdl, CONDDEATH, "death", HREARMAFTERRESTART);
+	if (chdl == NULL) {
+		char* errMsg = calloc(100, sizeof(char));
+		sprintf(errMsg, "test-project: ham_condition error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+	// create restart action, if process is dead
+	ahdl = ham_action_restart(chdl, "restart", relaunchPath, HREARMAFTERRESTART);
+	if (ahdl == NULL) {
+		char* errMsg = calloc(100, sizeof(char));
+		sprintf(errMsg, "test-project: ham_action_restart error: %s", strerror(errno));
+		perror(errMsg);
+		return EXIT_FAILURE;
+	}
+	//log restart of a process after it got dead
+	ahdl = ham_action_log(chdl, "loggingRestart", "loggingRestart", 0, 0, HREARMAFTERRESTART);
+	if (ahdl == NULL) {
+		char* errMsg = calloc(150, sizeof(char));
+		sprintf(errMsg, "test-project: ham_action_log error: %s", strerror(errno));
 		perror(errMsg);
 		return EXIT_FAILURE;
 	}
@@ -144,10 +180,10 @@ int attachSelfToHam(char* taskName) {
 int main(int argc, char *argv[]) {
 	char* taskName = argv[1];
 
-//	int returnVal;
-//	if ((returnVal = attachSelfToHam(taskName)) != OK) {
-//		return returnVal;
-//	}
+	int returnVal;
+	if ((returnVal = attachSelfToHam(taskName)) != OK) {
+		return returnVal;
+	}
 
 	if (strcmp(taskName, TASK_AIRBAG) == 0) {
 		taskAirbag(NULL);

@@ -48,12 +48,12 @@ int main(int argc, char *argv[]) {
 	if ((returnVal = registerTask("taskAirbag", "taskAirbag")) != OK) {
 		return returnVal;
 	}
-	if ((returnVal = registerTask("taskMemoryCheck", "taskMemoryCheck")) != OK) {
-		return returnVal;
-	}
-	if ((returnVal = registerTask("taskSerialLine", "taskSerialLine")) != OK) {
-		return returnVal;
-	}
+//	if ((returnVal = registerTask("taskMemoryCheck", "taskMemoryCheck")) != OK) {
+//		return returnVal;
+//	}
+//	if ((returnVal = registerTask("taskSerialLine", "taskSerialLine")) != OK) {
+//		return returnVal;
+//	}
 
 	return EXIT_SUCCESS;
 }
